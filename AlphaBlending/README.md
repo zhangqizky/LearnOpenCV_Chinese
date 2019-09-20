@@ -2,7 +2,7 @@
 Alpha blending是将前景图像加在一个背景图像上,透明度是图像的第四通道的值，一般是一个四通道的png图像，当然也可能是一张单独的黑白图像，一般被称为
 alpha掩膜。在下面这张图中，左上是前景图像，右上是alpha掩膜，下面是背景图像。
 
-![]()
+![alpha-blending-using-opencv.jpg](https://github.com/zhangqizky/LearnOpenCV_Chinese/blob/master/AlphaBlending/alpha-blending-using-opencv.jpg)
 
 alpha blending背后的数学知识很简单，对于每个像素，都是通过前景图像和背景图像由alpha掩膜的值加权而来。   
  I = a*F + (1-a)B
