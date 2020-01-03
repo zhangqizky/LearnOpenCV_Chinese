@@ -3,6 +3,10 @@
 g++ -std=c++11 -lopencv_core -lopencv_dnn -lopencv_highgui -lopencv_imgcodecs -lopencv_imgproc -lopencv_objdetect -lopencv_video -lopencv_videoio src1.cpp src2.cpp src3.cpp src4.cpp -o output-excutable 
 ```
 
+```
+g++ -std=c++11 -I/usr/local/Cellar/opencv/4.0.1/include/opencv4 -lopencv_core -lopencv_dnn -lopencv_highgui -lopencv_imgcodecs -lopencv_imgproc -lopencv_objdetect -lopencv_video -lopencv_videoio test.cpp -o output-excutable
+```
+
 ## CMakeLists   
 ```
 cmake_minimum_required(VERSION 3.0)
